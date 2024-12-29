@@ -1,0 +1,12 @@
+<div><h2>Child Component</h2>
+<p>{{ParentData}}</p>
+
+<input type="text" [(ngModel)]="childData"/>
+
+<p>{{childData}}</p>
+
+
+<input type="button" value="Send Data To Parent" (click)="sendData()">
+</div>
+
+
